@@ -1,6 +1,8 @@
 import "./App.css";
 import Counter from "./Counter";
+import Friends from "./Friends";
 import Team from "./Team";
+import Users from "./User";
 
 function App() {
   function handleClicked() {
@@ -13,8 +15,11 @@ function App() {
   return (
     <>
       <h3>Vite + React core concepts 2</h3>
-      <Team />
 
+      <Friends />
+      <Users />
+
+      <Team />
       <Counter></Counter>
       <button onClick={handleClicked}>Click Me</button>
       <button onClick={handleClicked2}>Clicked2</button>
